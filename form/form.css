@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+   padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('mjk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    scroll-behavior: auto;
+    overflow: hidden;
+    
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+.myself{
+   float: right;
+   border: 2px solid #fc49499f;
+   height: 200px;
+   width: 200px;
+   border-radius: 10px;
+   padding-right: 15px;
+
+   
+}
+
+p{
+   font-size: 17px;
+   font-weight: 10px;
+}
+
+
+.mainheader{
+   width: 100%;
+   height: 50px; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+
+input{
+   height: 45px;
+   border-radius: 25px;
+   width: 100;
+}
+
+.head{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   margin-right: 20px;
+}
+
+
+
+
+button{
+   height: 20px; 
+   width: 20px;
+   background-color: transparent;
+   border: none;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   gap: 2px;
+}
+
+
+
+.menubtn{
+   width: 25px;
+   height: 25px;
+   border-radius: 10px;
+   background-image: url('icon.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: none;
+}
+
+
+
+.left{
+   display: flex;
+   align-items: center; 
+   gap: 30px;
+   margin-left: 10px;
+}
+
+.menu{
+   color: white;
+   font-size: 15px;
+}
+
+.menu:hover{
+   border-bottom: 5px solid rgba(88, 88, 238, 0.308);
+   color: rgba(88, 88, 238, 0.308);
+}
+
+button div{
+  background-color: white; 
+  width: 100%;
+  height: 8px;
+  position: relative;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.logo{
+   width: 250px;
+   height: 80px;
+   padding-bottom: 25px;
+}
+
+.content{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 90%;
+        max-width: 900px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        padding: 50px;
+    }
+
+    
+
+
+.content form{
+        background: #fff;
+        padding: 2px;
+        border-radius: 50px;
+        display: flex;
+        
+    }
+    .content form input{
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 0 20px;
+        font-size: 18px;
+        
+    }
+
+    .content form img{
+        padding: 10px 35px;
+        cursor: pointer;
+        
+    }
+
+     .one{
+       color: rgba(88, 88, 238, 0.26);
+       padding: 5px;
+       
+        }
